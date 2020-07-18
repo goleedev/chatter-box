@@ -1,0 +1,49 @@
+html {
+  scroll-behavior:smooth;
+}
+body {
+  margin: 0;
+  font-family: "Mark Pro" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+::-moz-selection {
+  background: #FFD437 !important;
+  color: #444452 !important;
+}
+::selection {
+  background: #FFD437 !important;
+  color: #444452 !important;
+}
+
+/* Main Card */
+.main__card {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 10%;
+  border: none !important;
+  border-radius: 35px;
+  background: #ffffff;
+  box-shadow:  5px 5px 5px #242424;
+}
+
+.main__card select {
+  width: 70%;
+}
+
+.main__card button {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 50px;
+  color: #242424;
+  background: #cbeaed;
+  border: none !important;
+}
+
+/* Footer */
+p.copyright {
+  text-align: center;
+  padding: 5%;
+}
